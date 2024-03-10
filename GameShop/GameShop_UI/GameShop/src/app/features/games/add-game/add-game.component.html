@@ -1,0 +1,43 @@
+<div class="container">
+
+    <h1 class="mt-3">Add Game</h1>
+
+    <form #form="ngForm" (ngSubmit)="onFormSubmit()">
+        <div class="mt-2">
+            <div class="mt-3">
+                <label class="form-label">Name</label>
+                <input type="text" id="gameName" class="form-control"
+                name="gameName" [(ngModel)]="model.name">
+            </div>
+
+            <div class="mt-3">
+                <label class="form-label">Description</label>
+                <input type="text" id="gameDescription" class="form-control"
+                name="gameDescription" [(ngModel)]="model.description">
+            </div>
+
+            <div class="mt-3">
+                <label class="form-label">Category</label>
+                <input type="text" id="gameCategory" class="form-control"
+                name="gameCategory" [(ngModel)]="model.category">
+            </div>
+
+            <div class="mt-3">
+                <label class="form-label">Author</label>
+                <input type="text" id="gameAuthor" class="form-control"
+                name="gameAuthor" [(ngModel)]="model.author">
+            </div>
+
+            <div class="mt-3">
+                <label class="form-label">Author Url</label>
+                <input type="text" id="gameAuthorUrl" class="form-control"
+                name="gameAuthorUrl" [(ngModel)]="model.authorUrl">
+            </div>
+
+            <div class="mt-3">
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </form>
+
+</div>

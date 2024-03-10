@@ -1,0 +1,32 @@
+<div class="container">
+
+    <h1 class="mt-3">Games List</h1>
+
+    <div class="d-flex justify-content-end mt-3">
+        <a [routerLink]="['/company/games/add']" class="btn btn-primary">Add Game</a>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th class="text-center">Name</th>
+                <th class="text-center">Description</th>
+                <th class="text-center">Category</th>
+                <th class="text-center">Author</th>
+                <th class="text-center">AuthorUrl</th>
+                <th class="text-center">PublishedDate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let game of games">
+                <td><span>{{game.name}}</span></td>
+                <td><span>{{game.description}}</span></td>
+                <td class="text-center"><span>{{game.category}}</span></td>
+                <td class="text-center"><span>{{game.author}}</span></td>
+                <td class="text-center"><span>{{game.authorUrl}}</span></td>
+                <td class="text-center"><span>{{game.publishedDate}}</span></td>
+            </tr>
+        </tbody>
+    </table>
+    
+</div>
