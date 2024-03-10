@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameShop_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8aa50d70f591c381647ff0eeb82960822b2c5228")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameShop_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameShop_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

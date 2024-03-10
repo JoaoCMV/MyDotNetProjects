@@ -134,3 +134,4 @@ D:\Projects\MyProjects\GameShop\GameShop_API\obj\Debug\net8.0\refint\GameShop_AP
 D:\Projects\MyProjects\GameShop\GameShop_API\obj\Debug\net8.0\GameShop_API.pdb
 D:\Projects\MyProjects\GameShop\GameShop_API\obj\Debug\net8.0\GameShop_API.genruntimeconfig.cache
 D:\Projects\MyProjects\GameShop\GameShop_API\obj\Debug\net8.0\ref\GameShop_API.dll
+D:\Projects\MyProjects\GameShop\GameShop_API\obj\Debug\net8.0\GameShop_API.sourcelink.json

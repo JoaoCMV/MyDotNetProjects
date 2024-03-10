@@ -1,8 +1,8 @@
-﻿namespace GameShop_API.Models.Domain
+﻿namespace GameShop_API.Models.DTO
 {
-    public class Company
+    public class CreateCompanyResponseDto
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public Guid Id { get; set; }
 
         public string Name { get; set; } = string.Empty;
 
