@@ -1,0 +1,50 @@
+.carouselBg{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto; /* Center the carousel */
+    position: relative;
+    max-width: 1100px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    max-width: 1000px; /* Adjust the maximum width of the carousel */
+    margin: auto; /* Center the carousel */
+    position: relative;
+    padding: 5px;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Adjust the maximum height of the images */
+    object-fit: cover; /* Ensure all images have the same aspect ratio */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 10px;
+}
+
+.carousel-control-prev {
+    left: 10px;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
